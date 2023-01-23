@@ -19,63 +19,110 @@
     --hover-color:#404BBF;
 }
 
+body{
+    font-family: 'Roboto';
+    color: var(--primary-text-color);
+    letter-spacing: 0.02em;
+}
 .list{
     list-style: none;
 }
+.link{
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--hover-color);
+}
+
 .web{
     color:var(--accent-color);
 }
 
-.page-body {
-    background-color: var(--primary-background-color);
-    color: var(--primary-text-color);
-}
-
-/* page-header */
-
 .logo{
-    color: var (--primary-text-color);
+    font-family: 'Raleway'; 
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
 }
-.link{
-    color: var (--primary-text-color);
+.site-nav{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-.link:hover,
-.link:focus{
-    color: var(--hover-color);
+.auth-nav{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.hero{
+    background-color: var(--footer-background-color);    
 }
 
-/* section */
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+}
+.button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+.button:hover,
+.button:focus{
+    background-color: var(--hover-color);
+}
 .section-title{
-    color: var (--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
-
+.feature-list{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 .teams{
     background-color: var(--secondary-backgrountd-color);
 }
-.feature-list .title {
+.teams-list{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.title{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
-
-.teams .title {
-    color: var(--secondary-text-color);
-}
-
-/* Hero */
-.hero-title{
-    color: var(--white-color);
-}
-.hero{
-   background-color: var( --footer-background-color);
-}
-
-/* Footer */
-
 footer{
-    background-color: var(--footer-background-color);
+    background-color: var(--footer-background-color);    
 }
 
-/* button */
-.button{
+.footer-text{
     color: var(--white-color);
-    background-color: var(--accent-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
 }
