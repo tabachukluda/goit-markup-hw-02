@@ -10,19 +10,18 @@
 :root{
     --primary-text-color: #2E2F42;
     --secondary-text-color: #434455;
-    --accent-color:#4D5AE5;
+    --primary-accent-color:#4D5AE5;
     --white-color:#ffffff;
     --footer-text-color:#E7E9FC;
     --primary-background-color:#E5E5E5;
     --secondary-backgrountd-color:#F4F4FD;
     --footer-background-color:#2E2F42;
-    --hover-color:#404BBF;
+    --secondary-accent-color:#404BBF;
 }
 
 body{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
-    letter-spacing: 0.02em;
 }
 .list{
     list-style: none;
@@ -33,11 +32,11 @@ body{
 
 .link:hover,
 .link:focus {
-    color: var(--hover-color);
+    color: var(--secondary-accent-color)
 }
 
 .web{
-    color:var(--accent-color);
+    color:var(--primary-accent-color)
 }
 
 .logo{
@@ -84,7 +83,10 @@ body{
 }
 .button:hover,
 .button:focus{
-    background-color: var(--hover-color);
+    background-color: var(--secondary-accent-color);
+}
+.pointer{
+    cursor: pointer;
 }
 .section-title{
     font-weight: 700;
@@ -121,8 +123,23 @@ footer{
 
 .footer-text{
     color: var(--white-color);
-    font-weight: 400;
+    /*font-weight: 400;*/
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
 }
+
+/* Portfolio*/
+
+.button-portfo{
+color: var(--primary-accent-color);
+background-color: var(--secondary-backgrountd-color);
+}
+
+.button-portfo:hover,
+.button-portfo:focus{
+    color: var(--white-color);
+    background-color: var(--secondary-accent-color);
+}
+
+.
