@@ -22,12 +22,14 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
+    background-color: var(--white-color);
 }
 .list{
     list-style: none;
 }
 .link{
     text-decoration: none;
+    color: var(--primary-text-color);
 }
 
 .link:hover,
@@ -41,21 +43,21 @@ body{
 }
 
 .logo{
-    font-family: 'Raleway'; 
-    font-style: normal;
+    font-family: 'Raleway'; sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    color: var(--primary-text-color);
 }
 .site-nav{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
+    }
 .auth-nav{
     font-style: normal;
     font-weight: 500;
@@ -68,7 +70,7 @@ body{
 }
 
 .hero-title {
-    font-weight: 700;
+    /*font-weight: 700;*/
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -76,12 +78,13 @@ body{
     color: var(--white-color);
 }
 .button{
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--white-color);
-    background-color: var(--accent-color);
+    background-color: var(--primary-accent-color);
 }
 .button:hover,
 .button:focus{
@@ -98,37 +101,36 @@ body{
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.feature-list{
+.headline{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+
 .teams{
     background-color: var(--secondary-backgrountd-color);
 }
-.teams-list{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
+
 .title{
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
 footer{
     background-color: var(--footer-background-color);    
 }
+.flooter-logo{
+    color: var(--white-color);
+}
 
 .footer-text{
     color: var(--white-color);
     /*font-weight: 400;*/
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .visually-hidden {
@@ -147,8 +149,12 @@ footer{
 /* Portfolio*/
 
 .button-portfo{
-color: var(--primary-accent-color);
-background-color: var(--secondary-backgrountd-color);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primary-accent-color);
+    background-color: var(--secondary-backgrountd-color);
 }
 
 .button-portfo:hover,
@@ -157,4 +163,6 @@ background-color: var(--secondary-backgrountd-color);
     background-color: var(--secondary-accent-color);
 }
 
-.
+.logo-link{
+    text-decoration: none;
+}
